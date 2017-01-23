@@ -1,3 +1,10 @@
-# First Chapter
+# Spark 2.1
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+Это раньше вам нужен был Hadoop, чтобы запустить Spark, а теперь и его не нужно.
+
+Вам нужны три вещи: базовое знание Linux, Java и свеженький релиз Spark.
+
+
+
+
+
