@@ -8,7 +8,7 @@
 
 {% youtube %}
 
-[https://www.youtube.com/watch?v=9bZkp7q19f0](https://www.youtube.com/watch?v=FE7Vo8QqEYw)
+https://www.youtube.com/watch?v=FE7Vo8QqEYw
 
 {% endyoutube %}
 
