@@ -8,13 +8,31 @@
 
 {% youtube %}
 
+https://www.youtube.com/watch?v=dXKs26ySPHw
+
+{% endyoutube %}
+
+
+
+о работе с  Hadoop или 
+
+{% youtube %}
+
+https://www.youtube.com/watch?v=TtsBOBXJnyE
+
+{% endyoutube %}
+
+
+
+о выходе Spark 2.
+
+{% youtube %}
+
 https://www.youtube.com/watch?v=FE7Vo8QqEYw
 
 {% endyoutube %}
 
-о работе с  Hadoop или 
 
-о выходе Spark 2.
 
 Если нет, то потрать 1-2 часа на это и двигайся дальше.
 
