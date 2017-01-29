@@ -34,3 +34,6 @@ https://www.youtube.com/watch?v=FE7Vo8QqEYw
 
 Если нет, то потрать 1-2 часа на это и двигайся дальше.
 
+
+
+
