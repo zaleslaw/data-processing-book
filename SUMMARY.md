@@ -1,7 +1,7 @@
 # Summary
 
 * [Введение](README.md)
-* [Действующие лица: пьеса в трех томах](chapter1.md)
+* [Действующие лица: пьеса в трех томах](chapter1.adoc)
 * [Intro: Как быстро начать работу со Spark](как-быстро-начать-работу-со-spark.md)
   * [Упражнения](как-быстро-начать-работу-со-spark/uprazhneniya.md)
 * [Intro: DataSet API за 30 минут](intro-dataset-api-za-30-minut.md)
