@@ -8,4 +8,5 @@
 * [Intro: Как быстро начать работу с Kafka](intro-kak-bystro-nachat-rabotu-s-kafka.md)
 * [Basic: Как устроена Kafka](basic-kak-ustroena-kafka.md)
 * [Advanced: Конфигурирование Kafka](advanced-konfigurirovanie-kafka.md)
+* [Basic: Вжух SQL-&gt; DataSet API](basic-vzhuh-sql-dataset-api.md)
 
