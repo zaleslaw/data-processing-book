@@ -11,5 +11,5 @@
 * [Basic: Как устроена Kafka](basic-kak-ustroena-kafka.md)
 * [Advanced: Конфигурирование Kafka](advanced-konfigurirovanie-kafka.md)
 * [Basic: DStreams на службе Его Величества Стриминга](basic-dstreams-na-sluzhbe-ego-velichestva-striminga.md)
-* [Advanced: Конфигурирование Kafka](advanced-konfigurirovanie-kafka.md)
+* [Basic: Structured Streaming, быстрый страт](basic-structured-streaming-bistrii-strat.md)
 
