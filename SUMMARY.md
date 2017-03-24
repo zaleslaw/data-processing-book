@@ -6,6 +6,7 @@
   * [Упражнения](как-быстро-начать-работу-со-spark/uprazhneniya.md)
 * [Intro: DataSet API за 30 минут](intro-dataset-api-za-30-minut.md)
 * [Intro: Как быстро начать работу с Kafka](intro-kak-bystro-nachat-rabotu-s-kafka.md)
+  * [Q: Куда делись данные из Kafka после рестарта?](intro-kak-bystro-nachat-rabotu-s-kafka/q-kuda-delis-dannie-iz-kafka-posle-restarta.md)
 * [Intro: Получение данных из Kafka](intro-poluchenie-dannih-iz-kafka.md)
 * [Intro: Публикация данных в Kafka](intro-publikatsiya-dannih-v-kafka.md)
 * [Basic: Как устроена Kafka](basic-kak-ustroena-kafka.md)
