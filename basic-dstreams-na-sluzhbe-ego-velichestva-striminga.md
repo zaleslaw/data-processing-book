@@ -1,9 +1,4 @@
-TODO:
-
-* WordCount
-* Count
-
-
+# DStreams на службе Его Величества Стриминга
 
 
 
