@@ -10,6 +10,7 @@
   * [Basic: Публикация данных в Kafka](intro-publikatsiya-dannih-v-kafka.md)
     * [Упражнения](intro-publikatsiya-dannih-v-kafka/uprazhneniya.md)
   * [Basic: Получение данных из Kafka](intro-poluchenie-dannih-iz-kafka.md)
+    * [Упражнения](intro-poluchenie-dannih-iz-kafka/uprazhneniya.md)
 * [Basic: Как устроена Kafka](basic-kak-ustroena-kafka.md)
 * [Advanced: Конфигурирование Kafka](advanced-konfigurirovanie-kafka.md)
 * [Basic: DStreams на службе Его Величества Стриминга](basic-dstreams-na-sluzhbe-ego-velichestva-striminga.md)
