@@ -18,4 +18,5 @@
     * [3.1.1. Упражнения](basic-dstreams-na-sluzhbe-ego-velichestva-striminga/chitaem-iz-kafka/uprazhneniya.md)
 * [4. Structured Streaming, быстрый старт](basic-structured-streaming-bistrii-strat.md)
   * [4.1. Первые вопросы по настройке Structured Streaming](basic-structured-streaming-bistrii-strat/41-pervie-voprosi-po-nastroike-structured-streaming.md)
+  * [4.2. Операции над входящим потоком](basic-structured-streaming-bistrii-strat/operatsii-nad-vhodyaschim-potokom.md)
 
