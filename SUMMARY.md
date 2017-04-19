@@ -17,4 +17,5 @@
   * [3.1. Читаем из Kafka](basic-dstreams-na-sluzhbe-ego-velichestva-striminga/chitaem-iz-kafka.md)
     * [3.1.1. Упражнения](basic-dstreams-na-sluzhbe-ego-velichestva-striminga/chitaem-iz-kafka/uprazhneniya.md)
 * [4. Structured Streaming, быстрый старт](basic-structured-streaming-bistrii-strat.md)
+  * [4.1. Первые вопросы по настройке Structured Streaming](basic-structured-streaming-bistrii-strat/41-pervie-voprosi-po-nastroike-structured-streaming.md)
 
