@@ -19,4 +19,7 @@
 * [4. Structured Streaming, быстрый старт](basic-structured-streaming-bistrii-strat.md)
   * [4.1. Первые вопросы по настройке Structured Streaming](basic-structured-streaming-bistrii-strat/41-pervie-voprosi-po-nastroike-structured-streaming.md)
   * [4.2. Операции над входящим потоком](basic-structured-streaming-bistrii-strat/operatsii-nad-vhodyaschim-potokom.md)
+  * [4.3. JOIN для бедных](basic-structured-streaming-bistrii-strat/join-dlya-bednih.md)
+  * [4.4. Агрегация и агрегаты](basic-structured-streaming-bistrii-strat/agregatsiya-i-agregati.md)
+* [5. Заливаем в Kafka](zalivaem-v-kafka.md)
 
