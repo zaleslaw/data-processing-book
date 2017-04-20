@@ -22,6 +22,7 @@
   * [4.3. JOIN для бедных](basic-structured-streaming-bistrii-strat/join-dlya-bednih.md)
   * [4.4. Агрегация и агрегаты](basic-structured-streaming-bistrii-strat/agregatsiya-i-agregati.md)
   * [4.5. Сортировка](basic-structured-streaming-bistrii-strat/sortirovka.md)
-* [5. Сохраняем в ...](sohranyaem-v.md)
-* [5.1. Kafka](zalivaem-v-kafka.md)
+* [5. Сохраняем в ..](sohranyaem-v.md)
+  * [5.1. Kafka](sohranyaem-v/kafka.md)
+  * [5.2. Parquet](sohranyaem-v/parquet.md)
 
