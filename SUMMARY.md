@@ -25,4 +25,5 @@
 * [5. Сохраняем в ..](sohranyaem-v.md)
   * [5.1. Kafka](sohranyaem-v/kafka.md)
   * [5.2. Parquet](sohranyaem-v/parquet.md)
+* [6. Читаем из..](chitaem-iz.md)
 
