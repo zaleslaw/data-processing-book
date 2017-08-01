@@ -5,6 +5,7 @@
 * [1. Как быстро начать работу со Spark](как-быстро-начать-работу-со-spark.md)
   * [1.1. DataSet API за 30 минут \(In progress\)](intro-dataset-api-za-30-minut.md)
   * [1.2. Apache Zeppelin](12-apache-zeppelin.md)
+  * [1.3. Старые-добрые RDD](13-starie-dobrie-rdd.md)
   * [1.4. Упражнения](как-быстро-начать-работу-со-spark/uprazhneniya.md)
 * [2. Как быстро начать работу с Kafka](intro-kak-bystro-nachat-rabotu-s-kafka.md)
   * [2.1. Куда делись данные из Kafka после рестарта?](intro-kak-bystro-nachat-rabotu-s-kafka/q-kuda-delis-dannie-iz-kafka-posle-restarta.md)
