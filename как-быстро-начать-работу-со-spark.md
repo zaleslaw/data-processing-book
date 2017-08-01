@@ -62,7 +62,6 @@ $ mkdir Spark
 ```
 $ cd Spark
 $ wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz
-
 ```
 
 Затем скачанный архив в формате tgz \(или _тарбол_, как говорят в народе\) необходимо распаковать
@@ -87,25 +86,27 @@ $ source /etc/environment
 ... проверяем, что SPARK_HOME доступна
 
 $ echo $SPARK_HOME
-
 ```
 
 Ну вот и все! Вы можете запустить Spark локально на своей машине при помощи команды
 
 ```
 $ spark-shell
-
 ```
 
-Если все хорошо, то вы попадете в CLI Spark-а, где вам доступен SparkContext как sc и SparkSession как Spark
+Если все хорошо\*, то вы попадете в CLI Spark-а, где вам доступен SparkContext как sc и SparkSession как Spark
 
 ```
 scala> spark
 res1: org.apache.spark.sql.SparkSession = org.apache.spark.sql.SparkSession@282240
-
 ```
 
 В заключение, хочу отметить, что данная установка не эквивалентна развертыванию Spark в кластере, вместе с Hadoop. Данной установки должно хватить для небольших экспериментов и изучения Spark API.
+
+\*_Если все плохо, то скорее всего проблемы с видимостью ваших переменных окружения, как вариант, попробуйте export  в bashrc или попробуйте сделать logout/login в пользователя или попробуйте прописать путь напрямую в PATH и повторить все действия заново._
+
+
+
 
 
 
