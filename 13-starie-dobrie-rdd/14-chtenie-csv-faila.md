@@ -2,43 +2,6 @@
 
 Пусть у нас имеется файл с данными о новорожденных США за разные годы, сгруппированных по полу, штату и имени.
 
-&lt;!--table  
-	{mso-displayed-decimal-separator:"\.";  
-	mso-displayed-thousand-separator:"\,";}  
-@page  
-	{margin:.75in .7in .75in .7in;  
-	mso-header-margin:.3in;  
-	mso-footer-margin:.3in;}  
-tr  
-	{mso-height-source:auto;}  
-col  
-	{mso-width-source:auto;}  
-br  
-	{mso-data-placement:same-cell;}  
-td  
-	{padding-top:1px;  
-	padding-right:1px;  
-	padding-left:1px;  
-	mso-ignore:padding;  
-	color:black;  
-	font-size:11.0pt;  
-	font-weight:400;  
-	font-style:normal;  
-	text-decoration:none;  
-	font-family:Calibri, sans-serif;  
-	mso-font-charset:0;  
-	mso-number-format:General;  
-	text-align:general;  
-	vertical-align:bottom;  
-	border:none;  
-	mso-background-source:auto;  
-	mso-pattern:auto;  
-	mso-protection:locked visible;  
-	white-space:nowrap;  
-	mso-rotate:0;}  
---&gt;  
-
-
 | Id | Name | Year | Gender | State | Count |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Mary | 1910 | F | AK | 14 |
@@ -64,8 +27,6 @@ td
 
 Давайте распарсим эти данные, превратив в RDD, где записью будет словарь из 6 пар ключ-значение, где ключ - название колонки, а значение - значение в этой колонке. Да, избыточно с точки зрения метаинформации, но тоже вариант.
 
-
-
 ```Scala
     // read from file
     val stateNamesCSV = sc.textFile("/home/zaleslaw/data/StateNames.csv")      
@@ -85,18 +46,15 @@ td
 
 #### Работа с RDD, содержащей строки CSV-файла
 
-Вы можете задать резонный вопрос: "Как всем этим пользоваться?" 
+Вы можете задать резонный вопрос: "Как всем этим пользоваться?"
 
 Рассмотрим пример, где нужно отфильтровать все записи с Name==Anna и количеством рождений больше сотни, взяв TOP-5 записей
-
-
 
 ```Scala
     stateNames
       .filter(e => e("Name") == "Anna" && e("Count").toInt > 100)
       .take(5)
       .foreach(println)
-
 ```
 
 Конечно, это не единственный спобос, да и далеко не самый лучший с точки зрения overhead по памяти, но данная схема позволяет работать нам в стиле, наиболее близком к стилю DataFrames/DataSet API.
