@@ -29,7 +29,7 @@
 
 ```Scala
     // read from file
-    val stateNamesCSV = sc.textFile("/home/zaleslaw/data/StateNames.csv")      
+    val stateNamesCSV = sc.textFile("/data/StateNames.csv")      
     // split / clean data
     val headerAndRows = stateNamesCSV.map(line => line.split(",").map(_.trim))
     // get header
