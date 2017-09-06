@@ -11,6 +11,7 @@
   * [1.2. JOIN на RDD](13-starie-dobrie-rdd/12-join.md)
     * [1.2.1 Кишочки JOIN](13-starie-dobrie-rdd/12-join/121-kishochki-join.md)
   * [1.3. Cogroup на RDD](13-starie-dobrie-rdd/13-cogroup-na-rdd.md)
+  * [1.4. Чтение CSV-файла](13-starie-dobrie-rdd/14-chtenie-csv-faila.md)
 * [2. Как быстро начать работу с Kafka](intro-kak-bystro-nachat-rabotu-s-kafka.md)
   * [2.1. Куда делись данные из Kafka после рестарта?](intro-kak-bystro-nachat-rabotu-s-kafka/q-kuda-delis-dannie-iz-kafka-posle-restarta.md)
   * [2.2. Публикация данных в Kafka](intro-publikatsiya-dannih-v-kafka.md)
