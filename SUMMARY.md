@@ -3,7 +3,7 @@
 * [Введение](README.md)
 * [Действующие лица: пьеса в трех томах](chapter1.adoc)
 * [0. Как быстро начать работу со Spark](как-быстро-начать-работу-со-spark.md)
-  * [0.1. DataSet API за 5 минут \(In progress\)](intro-dataset-api-za-30-minut.md)
+  * [0.1. DataSet API за 5 минут](intro-dataset-api-za-30-minut.md)
   * [0.2. Apache Zeppelin](12-apache-zeppelin.md)
   * [0.4. Упражнения](как-быстро-начать-работу-со-spark/uprazhneniya.md)
 * [1. Старые-добрые RDD](13-starie-dobrie-rdd.md)
@@ -33,4 +33,5 @@
   * [5.1. Kafka](sohranyaem-v/kafka.md)
   * [5.2. Parquet](sohranyaem-v/parquet.md)
 * [6. Читаем из..](chitaem-iz.md)
+* [Молодые и красивые DataFrames](molodie-i-krasivie-dataframes.md)
 
